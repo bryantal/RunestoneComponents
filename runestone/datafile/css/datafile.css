@@ -11,8 +11,8 @@
     padding: 0 0.2em;
     border: 1px solid #ccc;
     border-radius: 4px 4px 0 0;
-    font-style: italic;
-    background: white;
+    font-style: bold;
+    background: black;
 }
 .datafile_caption code {
     background: none;

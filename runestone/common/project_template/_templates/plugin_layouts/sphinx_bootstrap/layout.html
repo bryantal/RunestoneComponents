@@ -16,6 +16,7 @@
     '_static'+'/jquery.hotkey.js',
     '_static'+'/jquery-migrate-1.2.1.min.js',
     '_static'+'/presenter_mode.js',
+    '_static'+'/fontChange.js',
   ]
 %}
 
@@ -224,6 +225,12 @@
           <li>{% include "sourcelink.html" %}</li>
         {% endif %}
       </ul>
+
+<div>
+<button type="button" onclick="increaseTextSize()">Increase Font Size</button>
+<button type="button" onclick="decreaseTextSize()">Decrease Font Size</button>
+<button type="button" onclick="resetSize()">Reset Font Size</button>
+</div>
 
       </div> <!-- navbar -->
 
